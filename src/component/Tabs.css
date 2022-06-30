@@ -1,0 +1,23 @@
+.nav-tabs, .nav-link.active,
+ .nav-item.show .navlink{
+    font-weight: bold;
+    color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.nav-link{
+    color: #586069;
+    font-size: 14px;
+}
+@media (max-width:768px){
+    .nav-tabs, .nav-link.active,
+ .nav-item.show .navlink{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+}
